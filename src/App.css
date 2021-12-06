@@ -1,0 +1,169 @@
+.createdeck {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.inputarea {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 10px;
+}
+
+.inputareaclicked {
+  border-style: solid;
+}
+
+.term {
+  width: 500px;
+  height: 10px;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  height: 53px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-color: black;
+  padding-bottom: 10px;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+}
+.term:focus {
+  border-color: orange;
+  border-width: 0px 0px 3.5px 0px;
+}
+
+.definition {
+  width: 500px;
+  min-height: 17px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 0px 2px 0px;
+  max-height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 10px;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+}
+
+.definition:focus {
+  border-color: orange;
+  border-width: 0px 0px 3.5px 0px;
+}
+
+label {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  color: #555;
+}
+
+.renderarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  max-height: 100vh;
+  position: sticky;
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  top: 100px;
+  align-self: flex-start;
+}
+
+.cardlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.addnewcard {
+  background-color: #4285f4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 12px;
+  max-width: 200px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#cardlistitem {
+  list-style: none;
+  margin-left: 20px;
+}
+.dragarea {
+  background-color: red;
+  width: 50px;
+}
+
+.mover {
+  color: grey;
+  margin: 10px;
+}
+
+.mover:hover {
+  color: black;
+}
+
+.counter {
+  margin: 10px;
+}
+
+.cardlistmark {
+  list-style: none;
+}
+
+.hideCard {
+  display: none;
+}
+
+.deletebutton {
+  margin-left: 40px;
+  border: none;
+  background-color: #ff9999;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#editicon {
+  margin-left: 10px;
+}
+
+#editicon:hover {
+  color: blue;
+}
+
+.color {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#imageicon {
+  margin-left: 10px;
+}
+
+#imageicon:hover {
+  color: green;
+}
